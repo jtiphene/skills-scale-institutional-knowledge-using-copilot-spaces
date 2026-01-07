@@ -14,6 +14,7 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Release notes drafted
 - Rollback / mitigation plan documented
 - Smoke tests prepared
+- Use the Release Checklist: docs/checklists/release-checklist.md
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)
@@ -22,6 +23,7 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - [ ] Deploy to production (automated pipeline preferred)
 - [ ] Run post-deploy verifications
 - [ ] Announce release to stakeholders and support
+- [ ] Confirm QA sign-off using docs/checklists/qa-checklist.md
 
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
